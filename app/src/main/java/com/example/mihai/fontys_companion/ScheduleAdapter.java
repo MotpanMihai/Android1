@@ -52,8 +52,8 @@ public class ScheduleAdapter extends BaseAdapter {
         holder.course.setText("Course: " + schedule.getCourse());
         holder.room.setText("Grade: " + schedule.getRoom());
         holder.teacher.setText("Date: " + schedule.getTeacher());
-        holder.start.setText("Grade: " + schedule.getStart().substring(11, 16));
-        holder.end.setText("Date: " + schedule.getEnd().substring(11, 16));
+        holder.start.setText("Grade: " + schedule.getStart());
+        holder.end.setText("Date: " + schedule.getEnd());
         return convertView;
     }
 

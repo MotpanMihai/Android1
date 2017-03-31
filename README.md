@@ -5,7 +5,9 @@ Codrin Costea:
 - GradeAdapter.java
 - HomeActivity.java
 - Part of MainActivity.java:
-	- You can find comment in the code with the names.
+	- private void changeFragment(Fragment f)
+	- public void onFragmentInteraction(String token)
+	- public class JSONTask extends AsyncTask<String, Void, MyAccount> 
 - activity_grades.xml
 - activity_grades_list_layout.xml
 - activity_main.xml
@@ -20,4 +22,7 @@ Mihai Motpan:
 - activity_schedule_list_layout.xml
 - fragment.token.xml
 - Part of MainActivity.java:
-	- You can find comment in the code with the names.
+	- public class MainActivity
+	- protected void onCreate(Bundle savedInstanceState)
+	- public class JSONTaskGrades extends AsyncTask<String, Void, List<Grades>>
+	- public class JSONTaskSchedule extends AsyncTask<String, Void, List<Schedule>>
